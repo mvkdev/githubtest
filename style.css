@@ -1,0 +1,41 @@
+html {
+	background-color: #07575B;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+.hide {
+	visibility: hidden;
+}
+
+.center {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.tableStyle {
+	width: 300px;
+	font-family: sans-serif;	
+}
+
+.header {
+	font-size:36px;
+	padding: 25px;
+	background-color: #003B46;
+	color: white;
+}
+
+
+
+tr:nth-child(even) {
+	background-color: #C4DFE6;
+	color: #07575B;
+}
+tr:nth-child(odd) {
+	background-color: #66A5AD;
+	color: white;
+}
